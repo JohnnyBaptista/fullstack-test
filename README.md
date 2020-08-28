@@ -7,5 +7,6 @@ Gobots wants to create a new service to suggest music to its users. The suggesti
 ## How to run it?
 
 - Clone the repository
+- Change to the 'frontend' directory
 - Run `yarn` to install the application dependecies
 - Start the application with the command `yarn start`
