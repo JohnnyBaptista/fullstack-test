@@ -22,5 +22,5 @@ export const Text = styled.p`
   color: ${(props) => (props.color ? props.color : Palette.white)};
   padding: ${(props) => (props.pad ? `${props.pad}px` : '5px')} 0px;
   margin: ${(props) => (props.marg ? `${props.marg}px` : '5px')} 0px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
 `;
