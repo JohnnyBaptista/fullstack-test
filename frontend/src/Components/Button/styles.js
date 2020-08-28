@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Palette } from "../../styles/palette";
 
 export const ButtonContainer = styled.button`
-  width: ${(props) => (props.width ? `${props.width}%` : "auto")};
+  width: ${(props) => (props.width ? `${props.width}px` : "auto")};
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@ export const ButtonContainer = styled.button`
 `;
 
 export const ButtonContainerLink = styled.a`
-  width: ${(props) => (props.width ? `${props.width}%` : "auto")};
+  width: ${(props) => (props.width ? `${props.width}px` : "auto")};
   display: flex;
   align-items: center;
   justify-content: center;

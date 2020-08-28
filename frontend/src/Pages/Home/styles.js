@@ -11,6 +11,9 @@ export const TitleContainer = styled.div``;
 export const Body = styled.div`
   width: 100%;
   display: flex;
+  @media only screen and (max-width: 600px) {
+    text-align: center;
+  }
 `;
 
 export const ButtonContainer = styled.div`
@@ -25,6 +28,10 @@ export const Left = styled.div`
   flex-direction: column;
   width: 70%;
   height: 100%;
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+    justify-content: center;
+  }
 `;
 
 export const Right = styled.div`

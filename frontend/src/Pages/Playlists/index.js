@@ -22,9 +22,11 @@ function Playlists() {
   });
 
   return (
-    <animated.div style={{ ...props, width: '100%' }}>
+    <animated.div style={{ ...props, width: "100%" }}>
       <Container>
-        <Typography type="title">We chose you this playlist!</Typography>
+        <Typography type="title" style={{ textAlign: "center" }}>
+          We chose you this playlist!
+        </Typography>
         <ChosenPlaylist playlist={playlists[0]} />
         <Typography type="text">
           Or maybe you will like one of these...

@@ -72,7 +72,7 @@ function Home() {
               </Typography>
             </TitleContainer>
             <ButtonContainer onClick={() => handleClick()}>
-              <Button width={32}>Encontre minha playlist</Button>
+              <Button width={200}>Encontre minha playlist</Button>
             </ButtonContainer>
           </Left>
           <Right>

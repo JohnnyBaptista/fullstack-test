@@ -14,7 +14,7 @@ function ChosenPlaylist({ playlist }) {
       <InfoBox>
         <Typography type="sub">{playlist.name}</Typography>
         <Typography type="text">{playlist.description}</Typography>
-        <Button width={20} href={playlist.external_urls.spotify}>Listen to this playlist</Button>
+        <Button width={200} href={playlist.external_urls.spotify}>Listen to this playlist</Button>
       </InfoBox>
     </Container>
   );
